@@ -1,33 +1,47 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
-
-
+let votingAge = 18;
+if (votingAge > 18){
+    console.log('true')
+}
+ 
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+let color = 'black';
+let vehicle = 'truck';
 
-
-
-
-
+if(vehicle === 'truck'){
+  color = 'blue'; 
+}
+else if ( vehicle === 'car'){
+    color = 'red'
+}
+// console.log({color})
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
+let a = "1999";
+//  parseInt (a)
 
-
-
+console.log(parseInt(a))
 
 
 //Task d: Write a function to multiply a*b 
-
-
-
-
+function multiply(a, b){
+    return a * b
+}
+// console.log(multiply(6, 4));
+ 
 
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
+const b = 7
+const c = 'Dog Years!'
+ const arrowFunction = (a, b, c) => a * b + c;
 
 
+// console.log(arrowFunction(45, b, c));
 
 
 
@@ -60,21 +74,41 @@
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
 
-  
-  
+
+let player = 'choice'
+function game(choice){
+    let bot = math.random()
+    switch(choice) {
+        case 'rock':
+          
+          break;
+        case 'paper':
+          // code block
+          break;
+        case 'sissors':
+          // code block
+      }
+    }
 
 /************************************************************** Task 5 **************************************************************/
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
+let km = 1;
 
+function multiply(km){
+    return km * 0.621371
+}
 
-
+// console.log(multiply(4))
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
-  
+  let feet = 1;
 
-
+ function multiplyTwo(feet){
+     return feet * 30.48
+ }
+// console.log(multiplyTwo(3))
 
 
 /************************************************************** Task 6 **************************************************************/
